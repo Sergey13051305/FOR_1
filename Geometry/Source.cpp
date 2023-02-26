@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -9,7 +9,7 @@ void main()
 	setlocale(LC_ALL, "");
 
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 
 	int num_1 = 1;
 	for (int num_2 = 1; num_2 <= 255; num_2++)
