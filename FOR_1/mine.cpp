@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include <windows.h>
 using namespace std;
 using std::cout;
@@ -19,7 +19,7 @@ void main(){
 #ifdef Factorial
 	char symbol;
 	int num_1, num_2 ,num_3 = 1;
-	cout << "Äëÿ òîãî ÷òîáû âû÷åñëèòü ôàêòîðèàë, ââåäèòå íàïðèìåð \"5!\": "; cin >> num_1;cin >> symbol;
+	cout << "Ð”Ð»Ñ Ñ‚Ð¾Ð³Ð¾ Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ‹Ñ‡ÐµÑÐ»Ð¸Ñ‚ÑŒ Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð», Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ \"5!\": "; cin >> num_1;cin >> symbol;
 	cout << num_1 <<symbol << " = ";
 	for (num_2 = 1; num_2 <= num_1; num_2++)
 	{	
@@ -31,8 +31,8 @@ void main(){
 
 #ifdef Exponentiation
 		double a,b,z=1,x,d=1, s=1;
-		cout << "Ââåäèòå îñíîâàíèå ñòåïåíè: "; cin >> a;
-		cout << "Ââåäèòå ïîêàçàíèå ñòåïåíè: "; cin >> b;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> a;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> b;
 		d=b;
 		for (double c = 0; c > b; c++)
 		{
@@ -89,7 +89,7 @@ void main(){
 
 
 #ifdef Fibonacci
-		cout << "Ââåäèòå ÷èñëî Ôèáîíà÷÷è: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: ";
 		int a=0,b,c=1,d,f=0,x=0;
 		cin >> b;
 		for (int i = 0; i < b; i++)
@@ -102,7 +102,7 @@ void main(){
 #endif
 
 #ifdef Fibonacci_2
-		cout << "Ââåäèòå ÷èñëî Ôèáîíà÷÷è: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: ";
 		int a = 0, b, c = 1, f = 0;
 		cin >> b;
 		for (int i = 0; i < b; i++)
@@ -112,13 +112,13 @@ void main(){
 			f = a + c;
 			cout << " " << f;
 		}
-			cout << "- ×èñëåë â ôèáàíà÷è " << b << endl;
+			cout << "- Ð§Ð¸ÑÐ»ÐµÐ» Ð² Ñ„Ð¸Ð±Ð°Ð½Ð°Ñ‡Ð¸ " << b << endl;
 #endif
 
 #ifdef Prime_numbers
 	while (true)
 	{
-		cout << "Óêàæèòå ïðåäåë ïðîñòîãî ÷èñëà: " << endl;
+		cout << "Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ» Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°: " << endl;
 
 	int a = 1, b, z = 1;
 
@@ -177,7 +177,7 @@ void main(){
 #ifdef MULTI_TAB_3
 
 	int n;
-	cout << "Âåäèòå ÷èñëî äëÿ ðîìáà: ";
+	cout << "Ð’ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ñ€Ð¾Ð¼Ð±Ð°: ";
 	cin >> n;
 	for (int i = 0; i < n; i++)
 	{
